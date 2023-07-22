@@ -434,3 +434,231 @@ h6 {
   filter: drop-shadow(0px 4px 22px rgba(0, 0, 0, 0.05));
   margin-left: 20px;
 }
+
+.doctor {
+  background: #FFF;
+  -webkit-backdrop-filter: blur(22px);
+          backdrop-filter: blur(22px);
+}
+
+.doctor__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 137px;
+  gap: 123px;
+}
+
+.doctor__main {
+  align-self: center;
+  padding-top: 38px;
+  margin-left: 7px;
+}
+
+.img-doctor {
+  position: relative;
+}
+
+.img-doctor__imglitl {
+  position: absolute;
+  top: 110px;
+  right: -50px;
+}
+
+.img-doctor__body {
+  position: absolute;
+  top: 250px;
+  left: -70px;
+}
+
+.body-doctor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 174px;
+  border-radius: 20px;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.04);
+  padding: 2.125rem 1.625rem 1.25rem 1.0625rem;
+}
+
+.body-doctor__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.body-doctor__header::before {
+  position: absolute;
+  content: "";
+  left: 305;
+  top: -60px;
+  width: 50px;
+  height: 56px;
+  background-image: url("img/doctor/Love.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-doctor {
+  position: relative;
+}
+
+.header-doctor__icon {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.header-doctor__icon img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.titl-doctor__name {
+  color: #3D3D3F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.titl-doctor__rating {
+  color: #3D3D3F;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.titl-doctor__rating span {
+  color: rgba(61, 61, 63, 0.4);
+}
+
+.main-doctor {
+  margin-bottom: 1.0625rem;
+}
+
+.main-doctor__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+}
+
+.item-doctor__text {
+  color: #A0A2B3;
+  font-family: SF Pro Display;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 266.667% */
+  letter-spacing: 0.24px;
+}
+
+.item-doctor__number {
+  color: #636481;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  /* 266.667% */
+}
+
+.footer-doctor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #3D3D3F;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+
+.footer-doctor__icon {
+  margin-top: 0.3125rem;
+}
+
+.main-dictor__titl {
+  margin-bottom: 1.5rem;
+  padding-bottom: 8px;
+  color: #3D3D3F;
+  font-family: Roboto;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.84px;
+}
+
+.main-dictor__text {
+  margin-bottom: 0.5rem;
+  color: rgba(61, 61, 63, 0.7);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
+  letter-spacing: 0.36px;
+}
+
+.main-dictor__services {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.main-dictor__button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.32px;
+  transition: all 0.3s ease 0s;
+}
+
+.main-dictor__button button:hover img {
+  display: none;
+}
+
+.services-doctor__servis {
+  display: flex;
+  align-items: center;
+  color: #3D3D3F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.32px;
+}
+
+.services-doctor__servis img {
+  margin-right: 17px;
+}
