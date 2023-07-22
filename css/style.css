@@ -225,3 +225,121 @@ h6 {
   border: 1px dashed rgba(117, 117, 117, 0.46);
   padding-top: 50px;
 }
+
+.search {
+  background-color: rgba(124, 195, 255, 0.1);
+  padding-top: 150px;
+}
+
+.search__container {
+  display: flex;
+  position: relative;
+}
+
+.search__body {
+  margin-bottom: 4.625rem;
+  align-self: center;
+}
+
+.search__img1 {
+  position: relative;
+}
+
+.search__img1 img {
+  position: relative;
+  right: -38px;
+}
+
+.search__img2 {
+  position: relative;
+}
+
+.search__img2 img {
+  position: absolute;
+  bottom: 154px;
+  right: -70px;
+}
+
+.body-search__titl {
+  width: 482px;
+  height: 137px;
+  color: #3E3E3E;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 1.9375rem;
+}
+
+.body-search__titl span {
+  color: #40A3F8;
+}
+
+.body-search__text {
+  width: 460px;
+  height: 58px;
+  color: rgba(117, 117, 117, 0.46);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 3.125rem;
+}
+
+.body-search__sear {
+  width: 566px;
+  height: 86px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 22px 0px rgba(228, 245, 252, 0.3);
+  padding: 13px;
+}
+
+.sear-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sear-body__button {
+  cursor: pointer;
+}
+
+.sear-body__button img {
+  width: 62px;
+  height: 55px;
+}
+
+.input {
+  padding: 0.3125rem 1.125rem 0rem 1.875rem;
+  width: 216px;
+  height: 59px;
+  border-radius: 8px;
+  background: rgba(245, 246, 250, 0.52);
+  outline: none;
+  opacity: 0.3019999862;
+}
+
+.option-sear {
+  width: 203px;
+  height: 59px;
+  border-radius: 8px;
+  background: rgba(245, 246, 250, 0.52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.125rem 1.3125rem 1.125rem 1.6875rem;
+}
+
+.option-sear__icon {
+  margin-right: 10px;
+}
+
+.option-sear__icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.select {
+  cursor: pointer;
+}
