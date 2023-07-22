@@ -451,7 +451,7 @@ h6 {
 
 .doctor__main {
   align-self: center;
-  padding-top: 38px;
+  padding-top: 45px;
   margin-left: 7px;
 }
 
@@ -773,6 +773,7 @@ h6 {
   padding-bottom: 128px;
   background: #FFF;
   backdrop-filter: blur(22px);
+  padding-top: 7px;
 }
 
 .online__container {
@@ -829,6 +830,7 @@ h6 {
 
 .online__button {
   position: relative;
+  margin-top: -5px;
 }
 
 .online__button button {
@@ -916,7 +918,6 @@ h6 {
   top: -10px;
   left: -130px;
   height: 400px;
-  width: 320px;
 }
 
 .apps__body {
@@ -954,12 +955,12 @@ h6 {
   display: flex;
   align-items: center;
   gap: 13px;
-  margin-left: 5px;
+  padding-top: 7px;
 }
 
 .clients {
   padding-top: 230px;
-  padding-bottom: 196px;
+  padding-bottom: 205px;
 }
 
 .clients__container {
