@@ -956,3 +956,145 @@ h6 {
   gap: 13px;
   margin-left: 5px;
 }
+
+.clients {
+  padding-top: 230px;
+  padding-bottom: 196px;
+}
+
+.clients__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients__titl {
+  color: var(--textv-2, #3D3D3F);
+  font-family: Roboto;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  margin-bottom: 93px;
+  margin-left: 72px;
+}
+
+.clients__items {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.clients__button-one {
+  position: absolute;
+  width: 33.455px;
+  height: 32px;
+  left: -80px;
+  top: 140px;
+}
+
+.clients__button-one::after {
+  content: "<";
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  color: rgb(64, 163, 248);
+  background-color: rgba(64, 162, 248, 0.3647058824);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients__button-two {
+  position: absolute;
+  width: 33.455px;
+  height: 32px;
+  right: -88px;
+  top: 139px;
+}
+
+.clients__button-two::after {
+  content: ">";
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background-color: rgb(64, 163, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-clients {
+  position: relative;
+  flex: 0 1 33.333%;
+  width: 370px;
+  height: 347px;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  filter: drop-shadow(0px 4px 22px rgba(0, 0, 0, 0.05));
+  padding: 1.375rem 1.0625rem 2rem 3rem;
+}
+
+.item-clients::after {
+  content: "";
+  position: absolute;
+  background-image: url("img/clients/Quote.svg");
+  top: -15px;
+  right: 38px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.item-clients__img {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.item-clients__img img {
+  border-radius: 50%;
+}
+
+.item-clients__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.item-clients__text {
+  color: #454D5D;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 156.25% */
+}
+
+.body-clients__name {
+  color: #3D3D3F;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  /* 275% */
+}
+
+.body-clients__adre {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 178.571% */
+  color: #47C2FF;
+}
