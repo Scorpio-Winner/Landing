@@ -64,3 +64,42 @@ h6 {
   font-weight: inherit;
   font-size: inherit;
 }
+
+.lock body {
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-scroll-chaining: none;
+  overscroll-behavior: none;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > main {
+  flex: 1 1 auto;
+}
+
+[class*=__container] {
+  margin: 0 auto;
+  max-width: 73.625rem;
+}
+
+[class*=-ibg] {
+  position: relative;
+}
+
+[class*=-ibg] img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+[class*=-ibg_contain] img {
+  object-fit: contain;
+}
