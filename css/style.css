@@ -662,3 +662,109 @@ h6 {
 .services-doctor__servis img {
   margin-right: 17px;
 }
+
+.service {
+  background: #FFF;
+  backdrop-filter: blur(22px);
+}
+
+.service__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 7.0625rem;
+}
+
+.service__items {
+  display: flex;
+  gap: 65px;
+  margin-bottom: 5.75rem;
+}
+
+.header-service__titl {
+  color: #3D3D3F;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  margin-bottom: 1.5rem;
+}
+
+.header-service__text {
+  color: rgba(61, 61, 63, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
+  letter-spacing: 0.36px;
+  width: 480px;
+  height: 66px;
+  margin-bottom: 4.6875rem;
+}
+
+.item-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 349px;
+  height: 316px;
+  border-radius: 10px;
+  background: linear-gradient(138deg, rgba(254, 254, 254, 0) 0%, #F9F9F9 0.01%, rgba(254, 254, 254, 0.51) 100%);
+  box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease 0s;
+  padding: 2.5rem 3.875rem 1.9375rem 3.9375rem;
+}
+
+.item-service:hover {
+  cursor: pointer;
+  background: #FFF;
+  transform: scale(1.1);
+}
+
+.item-service:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.125rem;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0.5;
+  background: #40A3F8;
+  box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.05);
+}
+
+.item-service__icon {
+  margin-bottom: 1rem;
+}
+
+.item-service__titl {
+  color: #3D3D3F;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  /* 166.667% */
+  margin-bottom: 1.4375rem;
+}
+
+.item-service__text {
+  color: #999;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+}
