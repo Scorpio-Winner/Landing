@@ -1376,6 +1376,10 @@ h6 {
     padding-top: 10px;
   }
 
+  .wrapper {
+    overflow: hidden;
+  }
+
   .header__logo {
     padding-top: 1.125rem;
     width: 225px;
@@ -1577,6 +1581,7 @@ h6 {
 
   .online__button button {
     margin-right: 20px;
+    margin-bottom: 30px;
   }
 
   .item__online {
@@ -1709,6 +1714,10 @@ h6 {
     height: 72px;
     margin-left: 58px;
     margin-top: -8px;
+  }
+
+  .footer {
+    margin-top: 0px;
   }
 
   .footer__left {
