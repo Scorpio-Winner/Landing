@@ -1352,3 +1352,21 @@ h6 {
   gap: 54px;
   margin-right: 9px;
 }
+
+@media (max-width: 73.625em) {
+  [class*=__container] {
+    max-width: 60.625rem;
+  }
+}
+
+@media (max-width: 61.99875em) {
+  [class*=__container] {
+    max-width: 46.875rem;
+  }
+}
+
+@media (max-width: 50.625em) {
+  [class*=__container] {
+    max-width: none;
+    padding: 0 0.9375rem;
+  }
