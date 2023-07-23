@@ -1710,5 +1710,70 @@ h6 {
     margin-left: 58px;
     margin-top: -8px;
   }
+
+  .footer__left {
+    flex: 0 1 40%;
+    margin-left: 61px;
+  }
+
+  .footer__centr {
+    flex: 0 1 25%;
+    margin-left: 0;
+    padding-left: 25px;
+    gap: 65px;
+  }
+
+  .footer__rigth {
+    margin-top: 15px;
+    margin-left: -63px;
+  }
+
+  .footer__futer {
+    justify-content: start;
+  }
+
+  .footer-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+
+  .left-footer__logo {
+    margin-bottom: 15px;
+  }
+
+  .left-footer__tell {
+    margin-bottom: 18px;
+  }
+
+  .left-footer__links {
+    gap: 20px;
+  }
+
+  .centr-footer__category {
+    gap: 27px;
+    padding-bottom: 2px;
+  }
+
+  .centr-footer__about {
+    gap: 27px;
+    padding-bottom: 2px;
+  }
+
+  .rigth-footer__text {
+    margin-bottom: 20px;
+  }
+
+  .rigth-footer__input {
+    margin-bottom: 15px;
+  }
+
+  .futer__licenzion {
+    margin-right: 300px;
+  }
+
+  .futer__priv {
+    gap: 24px;
+  }
 }
 
