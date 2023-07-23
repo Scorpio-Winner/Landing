@@ -1520,8 +1520,8 @@ h6 {
   .services-doctor__servis img {
     margin-top: 0.3125rem;
   }
-  
-    .service__container {
+
+  .service__container {
     margin-bottom: 51px;
   }
 
@@ -1552,4 +1552,46 @@ h6 {
   .item-service:nth-child(3) {
     margin-top: 3.75rem;
     margin-right: -20px;
+  }
+
+  .online {
+    padding-bottom: 0;
+    margin-bottom: -20px;
+  }
+
+  .online__titl {
+    margin-left: 65px;
+  }
+
+  .online__text {
+    margin-bottom: 65px;
+    margin-left: 65px;
+  }
+
+  .online__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 20px;
+  }
+
+  .online__button button {
+    margin-right: 20px;
+  }
+
+  .item__online {
+    flex: 0 1 47%;
+  }
+
+  .item__online:nth-child(1) {
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+
+  .item__online:nth-child(2) {
+    margin-bottom: 15px;
+  }
+
+  .item__online:nth-child(3) {
+    margin-right: 20px;
   }
