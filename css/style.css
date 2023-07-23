@@ -1520,3 +1520,36 @@ h6 {
   .services-doctor__servis img {
     margin-top: 0.3125rem;
   }
+  
+    .service__container {
+    margin-bottom: 51px;
+  }
+
+  .service__header {
+    padding-right: 30px;
+  }
+
+  .service__items {
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.4375rem;
+  }
+
+  .service__nav {
+    margin-right: -35px;
+  }
+
+  .item-service {
+    flex: 0 1 48%;
+  }
+
+  .item-service:nth-child(1) {
+    margin-right: -10px;
+  }
+
+  .item-service:nth-child(3) {
+    margin-top: 3.75rem;
+    margin-right: -20px;
+  }
