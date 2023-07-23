@@ -1420,3 +1420,44 @@ h6 {
   .search__img2 img {
     bottom: 205px;
   }
+
+  .solution__container {
+    padding-top: 10px;
+    padding-bottom: 70px;
+  }
+
+  .solution__titl {
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+
+  .solution__items {
+    gap: 0;
+    margin-left: 30px;
+  }
+
+  .items-solution__item {
+    justify-content: space-between;
+    flex: 0 1 33.333%;
+  }
+
+  .items-solution__item:nth-child(1) {
+    margin-left: -50px;
+    margin-top: 10px;
+    margin-right: 33px;
+  }
+
+  .items-solution__icon {
+    margin-bottom: 0.4375rem;
+    width: 79.445px;
+    height: 96.596px;
+  }
+
+  .items-solution__titl {
+    margin-bottom: 1.6875rem;
+    margin-left: 10px;
+  }
+
+  .items-solution__text {
+    width: 100%;
+  }
