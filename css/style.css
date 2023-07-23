@@ -2059,4 +2059,61 @@ h6 {
     width: 300px;
   }
 
+   .service__container {
+    padding: 0 5px;
+    margin-bottom: 152px;
+  }
+
+  .service__header {
+    width: 310px;
+  }
+
+  .service__items {
+    margin-bottom: 2.25rem;
+  }
+
+  .service__nav {
+    margin-right: 0;
+  }
+
+  .header-service__titl {
+    color: var(--textv-2, #3D3D3F);
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-left: 30px;
+  }
+
+  .header-service__titl {
+    margin-bottom: 0.25rem;
+  }
+
+  .header-service__text {
+    width: 315px;
+    height: 86px;
+  }
+
+  .header-service__text {
+    margin-bottom: 0.75rem;
+  }
+
+  .item-service {
+    flex: 1 1 100%;
+  }
+
+  .item-service:nth-child(2) {
+    margin-top: -0.625rem;
+    margin-bottom: 30px;
+    margin-right: -10px;
+  }
+
+  .item-service:nth-child(3) {
+    margin-top: -3.125rem;
+    margin-right: 0;
+    margin-bottom: 3px;
+  }
+
 
