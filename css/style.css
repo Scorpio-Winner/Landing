@@ -2000,4 +2000,63 @@ h6 {
     margin-left: 15px;
   }
 
+  .doctor__container {
+    gap: 43px;
+    padding-bottom: 0px;
+  }
+
+  .doctor__main {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .img-doctor__body {
+    top: 355px;
+    left: 25%;
+  }
+
+  .main-doctor {
+    align-self: center;
+    padding-top: 20px;
+    margin-left: 7px;
+  }
+
+  .main-dictor__titl {
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    margin-bottom: 1.875rem;
+    margin-top: 2px;
+  }
+
+  .main-dictor__text {
+    width: 310px;
+    height: 122px;
+    margin-bottom: 2.1875rem;
+    margin-left: -15px;
+  }
+
+  .main-dictor__services {
+    margin-left: -10px;
+    gap: 0;
+    margin-bottom: 0.9375rem;
+  }
+
+  .main-dictor__button {
+    margin-left: 35px;
+  }
+
+  .main-dictor__button button {
+    width: 200px;
+    height: 58.045px;
+  }
+
+  .services-doctor__servis:nth-child(1) {
+    max-width: 300px;
+  }
+
+  .services-doctor__servis:nth-child(3) {
+    width: 300px;
+  }
+
 
