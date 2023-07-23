@@ -1623,3 +1623,57 @@ h6 {
     margin-right: 20px;
   }
 
+  .clients {
+    padding-top: 400px;
+    padding-bottom: 198px;
+  }
+
+  .clients__titl {
+    margin-left: -7px;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .clients__items {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .clients__button-one {
+    top: 497px;
+    left: 50px;
+  }
+
+  .clients__button-two {
+    top: 497px;
+    right: 83px;
+  }
+
+  .item-clients {
+    flex: 0 1 45%;
+  }
+
+  .item-clients:nth-child(1) {
+    margin-right: 40px;
+    padding: 1.375rem 1.0625rem 2rem 0rem;
+  }
+
+  .item-clients:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    background-image: url("img/clients/Quote.svg");
+    top: -15px;
+    right: 60px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+  }
+
+  .item-clients:nth-child(3) {
+    margin-top: 1.75rem;
+    margin-right: 40px;
+  }
+
+  .item-clients::after {
+    right: 20px;
+  }
