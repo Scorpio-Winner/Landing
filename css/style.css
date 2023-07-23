@@ -1677,3 +1677,38 @@ h6 {
   .item-clients::after {
     right: 20px;
   }
+
+  .apoitment__container {
+    margin-top: -6.5625rem;
+    width: 742.476px;
+    height: 313.3px;
+    margin-bottom: 120px;
+  }
+
+  .apoitment__body {
+    width: 400px;
+    height: 130px;
+    margin-left: -4px;
+    padding-left: 10px;
+    margin-top: -27px;
+  }
+
+  .apoitment__img {
+    width: 380.757px;
+    height: 415.284px;
+    right: 35px;
+    top: -50px;
+  }
+
+  .body-apoitment__titl {
+    margin-top: -5px;
+  }
+
+  .body-apoitment__button {
+    width: 121px;
+    height: 72px;
+    margin-left: 58px;
+    margin-top: -8px;
+  }
+}
+
