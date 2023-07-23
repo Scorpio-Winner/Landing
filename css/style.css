@@ -1461,3 +1461,62 @@ h6 {
   .items-solution__text {
     width: 100%;
   }
+
+  .doctor__container {
+    flex-direction: column;
+    gap: 34px;
+    padding-bottom: 185px;
+  }
+
+  .doctor__img {
+    flex: 1 1 100%;
+    margin-left: 30px;
+  }
+
+  .doctor__main {
+    flex: 1 1 100%;
+    width: 550px;
+    height: 107px;
+    padding-left: 60px;
+  }
+
+  .img-doctor__body {
+    top: 260px;
+    left: -90px;
+  }
+
+  .main-dictor__titl {
+    margin-bottom: 0.8125rem;
+    padding-bottom: 12px;
+  }
+
+  .main-dictor__text {
+    width: 506px;
+    margin-bottom: 1.5625rem;
+  }
+
+  .main-dictor__services {
+    width: 400px;
+    margin-left: 18px;
+    margin-bottom: 0.625rem;
+  }
+
+  .main-dictor__button {
+    margin-left: 20px;
+  }
+
+  .services-doctor__servis:nth-child(2) {
+    max-width: 200px;
+  }
+
+  .services-doctor__servis:nth-child(3) {
+    width: 200px;
+  }
+
+  .services-doctor__servis {
+    align-items: start;
+  }
+
+  .services-doctor__servis img {
+    margin-top: 0.3125rem;
+  }
