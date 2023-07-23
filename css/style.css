@@ -1391,3 +1391,32 @@ h6 {
     width: 74px;
     height: 66px;
   }
+
+  .search {
+    padding-top: 275px;
+  }
+
+  .search__container {
+    flex-wrap: wrap;
+  }
+
+  .search__body {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 116px;
+  }
+
+  .search__img1 {
+    flex: 1 1 100%;
+  }
+
+  .search__img1 img {
+    top: -52px;
+    right: -23px;
+  }
+
+  .search__img2 img {
+    bottom: 205px;
+  }
