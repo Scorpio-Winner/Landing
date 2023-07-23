@@ -2281,4 +2281,48 @@ h6 {
     display: none;
   }
 
+  .apoitment__container {
+    height: 393px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .apoitment__body {
+    margin-left: -450px;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apoitment__img {
+    display: none;
+  }
+
+  .body-apoitment__titl {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 204.887px;
+    height: 114px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+  }
+
+  .body-apoitment__button {
+    margin-left: 0;
+    margin-top: 0;
+    width: 168.731px;
+    height: 83px;
+    flex-shrink: 0;
+    padding: 1.125rem 0.75rem 1.0625rem 2.3125rem;
+  }
+}
+
 
