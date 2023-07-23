@@ -1786,3 +1786,11 @@ h6 {
   }
 }
 
+@media (max-width: 29.99875em) {
+  .header__logo {
+    width: 12.125rem;
+    padding-left: 5px;
+    position: relative;
+    z-index: 5;
+  }
+
