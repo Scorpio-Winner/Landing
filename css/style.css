@@ -2227,4 +2227,58 @@ h6 {
     margin-right: 0;
   }
 
+  .clients {
+    padding-top: 222px;
+    margin-top: -115px;
+    padding-bottom: 225px;
+  }
+
+  .clients__titl {
+    width: 234.13px;
+    height: 122.393px;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+  }
+
+  .clients__button-one {
+    top: 109%;
+    left: 50px;
+  }
+
+  .clients__button-two {
+    top: 109%;
+    right: 50px;
+  }
+
+  .item-clients {
+    flex: 1 1 80%;
+  }
+
+  .item-clients:nth-child(1) {
+    width: 274px;
+    height: 347px;
+    flex-shrink: 0;
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .item-clients:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    background-image: url("img/clients/Quote.svg");
+    top: 2px;
+    right: 18px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+  }
+
+  .item-clients:nth-child(2) {
+    display: none;
+  }
+
+  .item-clients:nth-child(3) {
+    display: none;
+  }
+
 
