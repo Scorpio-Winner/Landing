@@ -1795,3 +1795,64 @@ h6 {
     z-index: 5;
   }
 
+  .menu {
+    display: none;
+  }
+
+  .menu .button {
+    width: 80%;
+    margin-top: 1.875rem;
+  }
+
+  .icon-menu {
+    display: block;
+    position: relative;
+    width: 3.5rem;
+    height: 2.125rem;
+    z-index: 5;
+    top: 9px;
+    right: 5px;
+  }
+
+  .icon-menu span,
+  .icon-menu::before,
+  .icon-menu::after {
+    content: "";
+    transition: all 0.3s ease 0s;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 0.5625rem;
+    background-color: rgb(64, 163, 248);
+    border-radius: 15px;
+  }
+
+  .icon-menu::before {
+    top: 0;
+  }
+
+  .icon-menu::after {
+    bottom: 0;
+  }
+
+  .icon-menu span {
+    bottom: 50%;
+    transform: translate(0, 50%);
+  }
+
+  .menu-open .icon-menu span {
+    width: 0;
+  }
+
+  .menu-open .icon-menu::before {
+    top: 40%;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+
+  .menu-open .icon-menu::after {
+    bottom: 35%;
+    transform: rotate(45deg);
+  }
+
