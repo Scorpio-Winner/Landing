@@ -1595,3 +1595,31 @@ h6 {
   .item__online:nth-child(3) {
     margin-right: 20px;
   }
+
+  .apps__container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .apps__img {
+    flex: 1 1 100%;
+    top: -5px;
+    left: -3%;
+    height: 390px;
+  }
+
+  .apps__body {
+    flex: 1 1 100%;
+    position: relative;
+    top: 340px;
+    right: -120px;
+    margin-top: -36px;
+    margin-left: 10px;
+  }
+
+  .body-apps__links {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
