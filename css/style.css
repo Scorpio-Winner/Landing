@@ -1370,3 +1370,24 @@ h6 {
     max-width: none;
     padding: 0 0.9375rem;
   }
+
+    .header__container {
+    gap: 35px;
+    padding-top: 10px;
+  }
+
+  .header__logo {
+    padding-top: 1.125rem;
+    width: 225px;
+    padding-left: 10px;
+  }
+
+  .header__menu {
+    gap: 30px;
+    padding-top: 1.25rem;
+  }
+
+  .menu .button {
+    width: 74px;
+    height: 66px;
+  }
