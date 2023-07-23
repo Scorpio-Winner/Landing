@@ -1153,6 +1153,10 @@ h6 {
   transform: scale(1.1);
 }
 
+.footer {
+  margin-top: 30px;
+}
+
 .footer__left {
   margin-left: 10px;
   margin-right: 20px;
