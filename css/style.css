@@ -1353,19 +1353,19 @@ h6 {
   margin-right: 9px;
 }
 
-@media (max-width: 73.625em) {
+@media (max-width: 1030px) {
   [class*=__container] {
     max-width: 60.625rem;
   }
 }
 
-@media (max-width: 61.99875em) {
+@media (max-width: 868px) {
   [class*=__container] {
     max-width: 46.875rem;
   }
 }
 
-@media (max-width: 50.625em) {
+@media (max-width: 768px) {
   [class*=__container] {
     max-width: none;
     padding: 0 0.9375rem;
@@ -1787,7 +1787,7 @@ h6 {
   }
 }
 
-@media (max-width: 29.99875em) {
+@media (max-width: 320px) {
   .header__logo {
     width: 12.125rem;
     padding-left: 5px;
@@ -2414,15 +2414,7 @@ h6 {
     order: 1;
     margin-bottom: 29px;
   }
-}
 
-@media (max-width: 29.99875em) and (any-hover: none) {
-  .icon-menu {
-    cursor: default;
-  }
-}
-
-@media (max-width: 29.99875em) and (max-width: 29.99875em) {
   .img-doctor__imglitl {
     top: 235px;
     left: 23%;
