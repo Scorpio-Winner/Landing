@@ -2419,4 +2419,8 @@ h6 {
     top: 235px;
     left: 23%;
   }
+
+  .lock {
+  overflow: hidden;
+}
 }
