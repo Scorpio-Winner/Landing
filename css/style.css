@@ -66,9 +66,7 @@ h6 {
 }
 
 .lock body {
-  -ms-touch-action: none;
   touch-action: none;
-  -ms-scroll-chaining: none;
   overscroll-behavior: none;
 }
 
@@ -437,8 +435,7 @@ h6 {
 
 .doctor {
   background: #FFF;
-  -webkit-backdrop-filter: blur(22px);
-          backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
 }
 
 .doctor__container {
@@ -521,8 +518,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .titl-doctor__name {
@@ -552,8 +548,6 @@ h6 {
 }
 
 .main-doctor__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 18px;
 }
